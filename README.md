@@ -1,27 +1,17 @@
-# React + TypeScript + Vite
+# Fetch and Display Data
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### React Fundamentals Series #2
 
-Currently, two official plugins are available:
+![Fetch and Display](https://miro.medium.com/v2/resize:fit:1400/0*Y0x_-_VYt6Rkdizh)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Learn How to Fetch Data from an API and Display it in your Application!
 
-## Expanding the ESLint configuration
+To get started download the code from the starter branch. Open the folder up in VS Code and run the following commands in your terminal:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+npm install
 
-- Configure the top-level `parserOptions` property like this:
+npm run dev
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+#### Then read the article to learn how to build this application--
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+[Tutorial](https://medium.com/@patrick.m.speranza/react-fundamentals-part-2-bd1685ebbbb8)
