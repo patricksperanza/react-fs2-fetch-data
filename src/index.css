@@ -5,6 +5,49 @@
 }
 
 body {
-  background-color: #242424;
+  background-color: #111;
   color: whitesmoke;
+  font-family: sans-serif;
+  padding: 26px;
+}
+
+.app {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.row {
+  background-color: #d0d0da;
+  height: 30px;
+}
+
+.row.even {
+  background-color: #eee;
+}
+
+.cell {
+  color: black;
+  padding: 6px 12px;
+}
+
+.heading {
+  background-color: #252525;
+}
+
+.number {
+  background-color: rgb(52, 52, 149);
+  padding: 0 5px;
+}
+
+.name {
+  font-weight: bold;
 }
